@@ -38,6 +38,65 @@
     <!-- CONTENIDO DE TU PAGINA -->
     <div class="container">
         <h1>Contenido de tu pagina</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- aqui va el formulario -->
+                <form>
+                    <div class="form-group">
+                      <label for="nombre">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                      
+                    </div>
+                    <div class="form-group">
+                      <label for="paterno">Paterno</label>
+                      <input type="text" class="form-control" id="paterno">
+                    </div>
+                    <div class="form-group">
+                      <label for="materno">Materno</label>
+                      <input type="text" class="form-control" id="materno">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">e-mail</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="agregarUsuario()">Submit</button>
+                  </form>
+            </div>
+            <div class="col-md-6">
+                <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th>#</th>
+                        <th>Nombre</th>
+                        <th>Paterno</th>
+                        <th>Materno</th>
+                        <th>email</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tblUsuarios">
+                      <!-- <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr> -->
+                    </tbody>
+                  </table>
+            </div>
+
+        </div> 
     </div>
     <!-- CONTENIDO DE TU PAGINA -->
 
